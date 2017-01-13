@@ -1,0 +1,37 @@
+.opaco{
+	background-color: rgba(0, 0, 0, .5);
+}
+.negro{
+	font-weight: bold;
+}
+.carousel-item{
+	color: black;
+}
+.carousel{
+	text-align: center;
+}
+.boton-paulina{
+	@include boton(transparent, 5px, 1px solid white);	
+}
+
+body{
+	padding:$padding_body;
+}
+
+.browser-default{
+	margin-top:20px;
+
+}
+
+.collapsible{
+	    box-shadow: none;
+	    border:none;
+}
+
+.btn-filtros{
+	background-color:transparent;
+}
+
+.btn{
+	background-color:$color_principal;
+}

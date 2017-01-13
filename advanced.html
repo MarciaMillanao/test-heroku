@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <title>Airbnb</title>
+  <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css">
+  <!--REQUIRED STYLE SHEETS-->
+  <link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m3 l3">
+				<a class="waves-effect waves-light btn btn-filtros">Filtros</a>
+			</div>
+			<div class="col s12 m8 l8">
+				<h6>Solo hay un 14% de alojamiento disponibles para estas fechas.</h6>
+				<p>Te recomendamos que reserves un alojamiento lo antes posible.</p>
+			</div>
+			<div class="col s1 m1 l1">
+				<img src="img/logo.png" alt="" class="hide-on-small-only">
+			</div>
+		</div>
+		<div class="divider"></div>	
+
+		<div class="row">
+			<div class="col s12 m3 l3">
+				<p>Tamaño</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<select class="browser-default">
+					<option value="" disabled selected>Habitación</option>
+					<option value="1">1 Dormitorio</option>
+					<option value="2">2 Dormitorios</option>
+					<option value="3">3 Dormitorios</option>
+					<option value="1">4 Dormitorios</option>
+					<option value="2">5 Dormitorios</option>
+					<option value="3">6 Dormitorios</option>
+				</select>
+				<label></label>
+			</div>
+			<div class=" col s12 m3 l3">
+				<select class="browser-default">
+					<option value="" disabled selected>Baño</option>
+					<option value="1">1 Baño</option>
+					<option value="2">2 Baños</option>
+					<option value="3">3 Baños</option>
+				</select>
+				<label></label>
+			</div>
+			<div class="col s12 m3 l3">
+				<select class="browser-default">
+					<option value="" disabled selected>Cama</option>
+					<option value="1">1 Cama</option>
+					<option value="2">2 Camas</option>
+					<option value="3">3 Camas</option>
+					<option value="2">4 Camas</option>
+					<option value="3">5 Camas</option>
+					<option value="2">6 Camas</option>
+					<option value="3">7+ Camas</option>
+				</select>
+				<label></label>
+			</div>
+		</div>
+		<div class="divider"></div>
+
+		<div class="row">
+			<div class="col s3 m3 l3">
+				<p>Opciones</p>
+			</div>
+			<div class="col s9 m9 l9">
+				<div class="row">
+					<div class="col s1 m1 l1">
+						<form action="#">
+							<p>
+								<input type="checkbox" id="test1" />
+								<label for="test1"></label>
+							</p>
+						</form>
+					</div>
+					<div class="col s10 m10 l10">
+						<p>Superhost</p>
+						<p>Quédate en casa de anfritiones excepcionales.</p>
+						<a href="">Más información</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="divider"></div>
+		
+		<div class="row">
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="col s12 m2 l2">
+						<p>Servicios</p>
+					</div>
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test2" />
+										<label for="test2"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>Internet inalámbrico (wifi)</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test3" />
+										<label for="test3"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>TV</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test4" />
+										<label for="test4"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s9 m9 l9">
+								<p>Cocina</p>
+							</div>
+						</div>
+					</div>
+					<div class="collapsible-header">+</div>
+					<div class="collapsible-body">
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Acceso disponible las 24 hrs.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Aire Acondicionado</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Apto para familia y niños</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Calefacción</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Champú</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Chimenea interior</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Desayuno</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Internet</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Lavadora</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--<div class="divider"></div>-->
+
+		<div class="row">
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="col s12 m2 l2">
+						<p>Servicios</p>
+					</div>
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test2" />
+										<label for="test2"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>Edificio con ascendor</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test3" />
+										<label for="test3"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>Parking gratuito</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test4" />
+										<label for="test4"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s9 m9 l9">
+								<p>Pisina</p>
+							</div>
+						</div>
+					</div>
+					<div class="collapsible-header">+</div>
+					<div class="collapsible-body">
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Acceso discapacitados</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Aparcamiento gratuito en la calle</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Jacuzzi</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	<!--<div class="divider"></div>-->
+
+		<div class="row">
+			<div class="col s12 m2 l2">
+				<p>Normas de la casa</p>
+			</div>
+			<div class="col s12 m3 l3">
+				<div class="row">
+					<div class="col s1 m1 l1">
+						<form action="#">
+							<p>
+								<input type="checkbox" id="test8" />
+								<label for="test8"></label>
+							</p>
+						</form>
+					</div>
+					<div class="col s10 m10 l10">
+						<p>Admite Mascotas</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m3 l3">
+				<div class="row">
+					<div class="col s1 m1 l1">
+						<form action="#">
+							<p>
+								<input type="checkbox" id="test9" />
+								<label for="test9"></label>
+							</p>
+						</form>
+					</div>
+					<div class="col s10 m10 l10">
+						<p>Apto para eventos</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m4 l4">
+				<div class="row">
+					<div class="col s1 m1 l1">
+						<form action="#">
+							<p>
+								<input type="checkbox" id="test10" />
+								<label for="test10"></label>
+							</p>
+						</form>
+					</div>
+					<div class="col s9 m9 l9">
+						<p>Apto para fumadores</p>
+					</div>
+					<div class="col s1 m1 l1">
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="divider"></div>-->
+
+				<div class="row">
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="col s12 m2 l2">
+						<p>Vecindario</p>
+					</div>
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test2" />
+										<label for="test2"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>SoMa</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test3" />
+										<label for="test3"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s10 m10 l10">
+								<p>Mission District</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col s12 m3 l3">
+						<div class="row">
+							<div class="col s1 m1 l1">
+								<form action="#">
+									<p>
+										<input type="checkbox" id="test4" />
+										<label for="test4"></label>
+									</p>
+								</form>
+							</div>
+							<div class="col s9 m9 l9">
+								<p>Daly City</p>
+							</div>
+						</div>
+					</div>
+					<div class="collapsible-header">+</div>
+					<div class="collapsible-body">
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Alfama</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Buda</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Area central</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Centro Historico</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Barra</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Barrio Alto</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col offset-s1 hide-on-small-only""></div>
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test2" />
+												<label for="test2"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Bondi</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test3" />
+												<label for="test3"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s10 m10 l10">
+										<p>Casco Antiguo</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col s12 m3 l3">
+								<div class="row">
+									<div class="col s1 m1 l1">
+										<form action="#">
+											<p>
+												<input type="checkbox" id="test4" />
+												<label for="test4"></label>
+											</p>
+										</form>
+									</div>
+									<div class="col s9 m9 l9">
+										<p>Center City</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</li>
+			</ul>
+		</div>
+	
+		<div class="row">
+			<div class="col offset-s5 hide-on-small-only">
+			</div>
+			<div class="col s6 m3 l3"><a class="waves-effect waves-light btn btn-cancelar">Cancelar</a></div>
+			<div class="col s6 m3 l3"><a class="waves-effect waves-light btn btn-aplicar">Aplicar filtros</a></div>
+		</div>
+		
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<!-- MATERIALIZE CORE SCRIPT   -->
+	<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>  
+	<!-- CUSTOM SCRIPTS -->
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
+</body>
+</html>
